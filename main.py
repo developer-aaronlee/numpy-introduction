@@ -58,7 +58,7 @@ mystery_array = np.array([[[0, 1, 2, 3],
 """access the first column of the tensor"""
 # print(mystery_array[:, :, 0])
 
-"""Use .arange()to createa a vector a with values ranging from 10 to 29."""
+"""Use .arange() to create a vector a with values ranging from 10 to 29."""
 a = np.arange(10, 30)
 # print(a)
 
@@ -148,8 +148,8 @@ c = np.matmul(a1, b1)
 
 """Manipulating Images as ndarrays"""
 img = scipy.datasets.face()
-plt.imshow(img)
-plt.show()
+# plt.imshow(img)
+# plt.show()
 
 """What is the data type of img? Also, what is the shape of img and how many dimensions does it have? What is the resolution of the image?"""
 # print(type(img))
