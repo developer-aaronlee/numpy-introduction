@@ -1,7 +1,7 @@
 import numpy as np
 from numpy.random import random
 import matplotlib.pyplot as plt
-from scipy import misc
+import scipy
 from PIL import Image
 
 """1-Dimensional Arrays (Vectors)"""
@@ -147,9 +147,9 @@ c = np.matmul(a1, b1)
 # print(c)
 
 """Manipulating Images as ndarrays"""
-img = misc.face()
-# plt.imshow(img)
-# plt.show()
+img = scipy.datasets.face()
+plt.imshow(img)
+plt.show()
 
 """What is the data type of img? Also, what is the shape of img and how many dimensions does it have? What is the resolution of the image?"""
 # print(type(img))
